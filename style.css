@@ -1,0 +1,135 @@
+html {	
+	font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	border-style: border-box;
+	background-image: linear-gradient(180deg, rgb(0, 1, 50), rgb(35, 39, 86),rgb(70, 74, 123));
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.name {
+	padding: 0 10px 0 10px;
+	color: white;
+	font-size: 120px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.social_icons {
+	width: 90%;
+	min-height: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	padding: 0 10px 0 10px;
+}
+
+.social_icons a {
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 5px solid white;
+	text-decoration: none;
+}
+
+.social__icon i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 70px;
+	height: 100%;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.name {
+		font-size: 100px;	  
+	}
+	.social_icons {
+		width: 80%;
+	}
+	.social_icons a {
+		width: 100px;
+		height: 100px;
+	}
+	.social__icon i {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.name {
+		font-size: 80px;	  
+	}
+	.social_icons {
+		width: 70%;
+	}
+	.social_icons a {
+		width: 80px;
+		height: 80px;
+	}
+	.social__icon i {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+	.name {
+		font-size: 60px;	  
+	}
+	.social_icons {
+		flex: wrap;
+	}
+
+	.social__icon  {
+		width: 40%;
+	}
+	.social_icons a {
+		width: 70px;
+		height: 70px;
+		border: 3px solid white;
+	}
+	.social__icon i {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px){
+	.name {
+		text-align: center;
+		font-size: 60px;	  
+	}
+	.social_icons {
+		flex: wrap;
+	}
+
+	.social__icon  {
+		width: 40%;
+	}
+	.social_icons a {
+		width: 60px;
+		height: 60px;
+		border: 2px solid white;
+	}
+	.social__icon i {
+		font-size: 35px;
+	}
+}
