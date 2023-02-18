@@ -55,6 +55,7 @@ body {
 	border-radius: 100%;
 	border: 5px solid white;
 	text-decoration: none;
+	margin: 0 20px 0 20px;
 }
 
 .social__icon i {
@@ -64,7 +65,6 @@ body {
 	color: white;
 	font-size: 70px;
 	height: 100%;
-	margin: 0 10px 0 10px;
 }
 
 
